@@ -25,15 +25,87 @@ img {
   padding: 0 40px;
 }
 
-.why img {
+#how {
+  background-color: #F9F9F9;
+}
+
+#why img {
   padding: 20px;
   background-color: #428BCA;
   border-radius: 50%;
 }
 
-.why p {
+#why p {
   margin-bottom: 10px;
 }
-.why hr {
+#why hr {
   margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+h3 {
+  font-size: 26px;
+}
+
+#how {
+  background-color: #00665a;
+  color: #fff;
+}
+
+#how h2 {
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+#where h2, #where h3, #why h2, #why h3 {
+  color: #00665a;
+}
+
+img {
+  height: 150px;
+}
+
+#why img {
+  background-color: #00665a;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+#how .container:last-child div:last-child{
+  margin-top: 50px;
+}
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+  h3 {
+    font-size: 26px;
+  }
+
+  #how {
+    background-color: #fff;
+  }
+
+  #where, #why {
+    color: #fff;
+    background-color: #003066;
+  }
+
+  #where h2, #where h3, #why h2, #why h3 {
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+  }
+
+  img {
+    height: 150px;
+  }
+
+  #why img {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  }
+
+  .container:last-child div {
+    margin-bottom: 40px;
+  }
+
 }
